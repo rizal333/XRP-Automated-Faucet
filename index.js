@@ -1,3 +1,9 @@
+/* 
+ *IMPORTANT NOTE:
+ * -use the link below to register
+ * https://faucetearner.org/?r=806297036669
+ */
+
 const axios = require("axios");
 const express = require('express');
 
