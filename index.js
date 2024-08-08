@@ -3,8 +3,8 @@ const express = require('express');
 
 const timeout = 20000;
 //Login Credentials
-const user = 'lester51';
-const pass = 'v3-F8&K-FVwKR_*';
+const user = process.env.USER;
+const pass = process.env.PASS;
 
 let app = express()
 
