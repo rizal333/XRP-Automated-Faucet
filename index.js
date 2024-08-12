@@ -29,7 +29,7 @@ app.listen(3000, () => {
 	            'act': 'login'
 	        }
         });
-        cookie = res.headers['set-cookie'];
+        var cookie = res.headers['set-cookie'];
         cookie = cookie.map(el=>el.split(';')[0]+';');
         let res2 = await axios.get('https:/\/faucetearner.org/faucet.php', {
 	        headers: {
